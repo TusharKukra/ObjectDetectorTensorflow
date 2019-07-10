@@ -1,4 +1,4 @@
-# TensorFlow Lite Object Detection Android Demo
+# TensorFlow Object Detection Android Demo
 ### Overview
 This is a camera app that continuously detects the objects (bounding boxes and classes) in the frames seen by your device's back camera, using a quantized [MobileNet SSD](https://github.com/tensorflow/models/tree/master/research/object_detection) model trained on the [COCO dataset](http://cocodataset.org/). These instructions walk you through building and running the demo on an Android device.
 
@@ -7,6 +7,8 @@ The model files are downloaded via Gradle scripts when you build and run. You do
 Application can run either on device or emulator.
 
 <!-- TODO(b/124116863): Add app screenshot. -->
+
+### Credit: https://www.tensorflow.org/
 
 ## Build the demo using Android Studio
 
@@ -20,7 +22,7 @@ Application can run either on device or emulator.
 ### Building
 * Open Android Studio, and from the Welcome screen, select Open an existing Android Studio project.
 
-* From the Open File or Project window that appears, navigate to and select the tensorflow-lite/examples/object_detection/android directory from wherever you cloned the TensorFlow Lite sample GitHub repo. Click OK.
+* From the Open File or Project window that appears, navigate to and select the 'ObjectDetectorTensorflow' directory from wherever you cloned the TensorFlow Lite sample GitHub repo. Click OK.
 
 * If it asks you to do a Gradle Sync, click OK.
 
