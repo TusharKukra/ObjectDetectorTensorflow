@@ -8,7 +8,7 @@ Application can run either on device or emulator.
 
 <!-- TODO(b/124116863): Add app screenshot. -->
 
-### Credit: https://www.tensorflow.org/lite/examples/
+### Credit: https://www.tensorflow.org
 
 ## Build the demo using Android Studio
 
